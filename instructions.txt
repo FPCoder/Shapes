@@ -1,0 +1,13 @@
+In groups of 2 or 3, develop a pure abstract class called "Shape", with the following members:
+
+-public:
+    - get functions for retrieving the area and perimeter
+    - pure virtual functions for calculating the area and perimeter
+-private:
+    - double variables for storing the area and perimeter
+
+Next, define 3 classes of shapes, each with a different number of sides, that all derive from "Shape".
+
+For each class, implement the functions for calulating area and perimeter.
+
+Include a driver that instantiates several instances of each shape and calculates area and perimeter.
