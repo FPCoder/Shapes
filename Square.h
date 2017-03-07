@@ -11,3 +11,5 @@ public:
 	void calculate();
 private:
 	double side;
+};
+#endif
