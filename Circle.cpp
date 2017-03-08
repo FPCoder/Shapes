@@ -8,8 +8,12 @@ using namespace std;
 // two sides and the angle between them (angle in degrees)
 Circle::Circle(double s) {
 	side = s;
+	setArea(0.0);
+	setPerimeter(0.0);
 }
 
 void Circle : calculate() {
+	setArea(side * side *PI);
+	setPerimeter(side * 2 *PI);
 	
 }
