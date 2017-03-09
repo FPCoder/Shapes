@@ -20,16 +20,28 @@ int main() {
     c1.calculate();
     c2.calculate();
     
-    cout << "Triangle:" << endl;
+    cout << "Triangle 1:" << endl;
     cout << "Area: " << t1.getArea() << endl;
     cout << "Perimeter: " << t1.getPerimeter() << endl;
     
-    cout << "Square:" << endl;
+    cout << "Triangle 2:" << endl;
+    cout << "Area: " << t2.getArea() << endl;
+    cout << "Perimeter: " << t2.getPerimeter() << endl;
+    
+    cout << "Square 1:" << endl;
     cout << "Area: " << s1.getArea() << endl;
+    cout << "Perimeter: " << s1.getPerimeter() << endl;
+    
+    cout << "Square 2:" << endl;
+    cout << "Area: " << s2.getArea() << endl;
     cout << "Perimeter: " << s2.getPerimeter() << endl;
     
-    cout << "Circle:" << endl;
+    cout << "Circle 1:" << endl;
     cout << "Area: " << c1.getArea() << endl;
+    cout << "Perimeter: " << c1.getPerimeter() << endl;
+    
+    cout << "Circle 2:" << endl;
+    cout << "Area: " << c2.getArea() << endl;
     cout << "Perimeter: " << c2.getPerimeter() << endl;
 
 
