@@ -12,7 +12,7 @@ Circle::Circle(double s) {
 	setPerimeter(0.0);
 }
 //Calculates area and perimeter using equation PI * r^2
-void Circle : calculate() {
+void Circle :: calculate() {
 	setArea(side * side *PI);
 	setPerimeter(side * 2 *PI);
 	
